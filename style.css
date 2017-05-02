@@ -64,21 +64,24 @@ header, nav, footer{
 	padding: 30px 0px 20px 0px;
 }
 
-
+/* section=495px 495-20 =475 */
 section{
 	background-color: #ebebeb;
-	width: 495px;
+	width: 475px;
 	margin: 20px 20px 20px 0px;
 	float: left;
 	padding: 30px 0px 10px 0px;
 }
-
+/* 
+body=960px - Section 495 = 465
+section height = 238 - top padding = 208
+ */
 aside{
 	background-color: #ebebeb;
-	width: 445px;
+	width: 465px;
 	margin: 20px 0px 20px 0px;
 	float: right;
-	padding: 30px 0px 543px 0px;
+	padding: 30px 0px 208px 0px;
 	height: 100%;
 }
 
@@ -86,6 +89,7 @@ article{
 	background-color: #777;
 	margin: 10px;
 	padding: 30px 0px 10px 0px;
+	color: white;
 }
 
 
@@ -138,6 +142,7 @@ li {
 	background-color: #ebebeb;
 	padding: 10px 5px 10px 5px;
 	margin: 10px 20px 10px 20px;
+	color: initial;
 }
 
 .center {
